@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="9" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="93391" started-at="2020-09-14T00:28:21 IST" finished-at="2020-09-14T00:29:55 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="93391" started-at="2020-09-14T00:28:21 IST" finished-at="2020-09-14T00:29:55 IST">
+      <class name="Shadi.com.v2.Excecution">
+        <test-method status="PASS" signature="get_panfield(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Shadi.com.v2.Excecution@3cb1ffe6]" name="get_panfield" duration-ms="11091" started-at="2020-09-14T00:28:22 IST" data-provider="getdata" finished-at="2020-09-14T00:28:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[skerkar96@yahoo.co.in]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[passw0rd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Self]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Marathi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_panfield -->
+        <test-method status="FAIL" signature="get_panfield(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Shadi.com.v2.Excecution@3cb1ffe6]" name="get_panfield" duration-ms="7342" started-at="2020-09-14T00:28:33 IST" data-provider="getdata" finished-at="2020-09-14T00:28:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dnn@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[passw0rd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Son]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[gujrathi]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [gujrathi] but found [Marathi]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [gujrathi] but found [Marathi]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at Shadi.com.v2.Excecution.get_panfield(Excecution.java:58)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_panfield -->
+        <test-method status="PASS" signature="get_panfield(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Shadi.com.v2.Excecution@3cb1ffe6]" name="get_panfield" duration-ms="10459" started-at="2020-09-14T00:28:40 IST" data-provider="getdata" finished-at="2020-09-14T00:28:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dnn@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[passw0rd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Son]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Marathi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_panfield -->
+        <test-method status="PASS" signature="get_panfield(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Shadi.com.v2.Excecution@3cb1ffe6]" name="get_panfield" duration-ms="9544" started-at="2020-09-14T00:28:51 IST" data-provider="getdata" finished-at="2020-09-14T00:29:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dnn@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[passw0rd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Son]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Marathi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_panfield -->
+        <test-method status="PASS" signature="get_panfield(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Shadi.com.v2.Excecution@3cb1ffe6]" name="get_panfield" duration-ms="9098" started-at="2020-09-14T00:29:00 IST" data-provider="getdata" finished-at="2020-09-14T00:29:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dnn@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[passw0rd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Self]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Marathi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_panfield -->
+        <test-method status="PASS" signature="get_panfield(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Shadi.com.v2.Excecution@3cb1ffe6]" name="get_panfield" duration-ms="8402" started-at="2020-09-14T00:29:09 IST" data-provider="getdata" finished-at="2020-09-14T00:29:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dnn@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[passw0rd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Son]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Marathi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_panfield -->
+        <test-method status="PASS" signature="get_panfield(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Shadi.com.v2.Excecution@3cb1ffe6]" name="get_panfield" duration-ms="9249" started-at="2020-09-14T00:29:18 IST" data-provider="getdata" finished-at="2020-09-14T00:29:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dnn@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[passw0rd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Son]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Marathi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_panfield -->
+        <test-method status="PASS" signature="get_panfield(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Shadi.com.v2.Excecution@3cb1ffe6]" name="get_panfield" duration-ms="16256" started-at="2020-09-14T00:29:27 IST" data-provider="getdata" finished-at="2020-09-14T00:29:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dnn@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[passw0rd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Self]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Marathi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_panfield -->
+        <test-method status="FAIL" signature="get_panfield(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Shadi.com.v2.Excecution@3cb1ffe6]" name="get_panfield" duration-ms="11206" started-at="2020-09-14T00:29:43 IST" data-provider="getdata" finished-at="2020-09-14T00:29:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dnn@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[passw0rd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Self]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [] but found [Marathi]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [] but found [Marathi]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at Shadi.com.v2.Excecution.get_panfield(Excecution.java:58)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_panfield -->
+      </class> <!-- Shadi.com.v2.Excecution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
