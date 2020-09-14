@@ -63,7 +63,10 @@ public class Excecution extends base {
 			
 		}
 
-
+public void gett() {
+	
+	System.out.println("ssmm");
+}
 
 	
 	
